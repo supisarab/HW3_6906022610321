@@ -23,10 +23,21 @@ a:visited{
     background-color: transparent;
     text-decoration: none;
 }
-.box {
-    width: 200px;
-    padding: 20px;
-    border: 5px solid black;
+a:hover{
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active{
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+
+*{
+    box-sizing: border-box;
 }
 header{
     background-color: orange;
