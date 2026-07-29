@@ -1,30 +1,30 @@
 body{
-    background-color: powderblue;
+    background-color: (palegoldenrod);
 }
 h1{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
 }
 p{
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
+    color: rgb(121, 30, 33);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
 }
 
 a:link{
-    color: green;
+    color: rgb(43, 16, 215);
     background-color: transparent;
     text-decoration: none;
 }
 a:visited{
-    color: yellow;
+    color: rgb(15, 98, 17);
     background-color: transparent;
     text-decoration: none;
 }
 a:hover{
-    color: red;
+    color: rgb(148, 163, 80);
     background-color: transparent;
     text-decoration: underline;
 }
@@ -39,16 +39,19 @@ a:active{
 *{
     box-sizing: border-box;
 }
+header p{
+    font-size: 20px;  
+}
 header{
-    background-color: rgb(248, 167, 167);
+    background-color:rgb(248,167,167);
     padding: 25px;
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
     color: white;
 }
 nav{
     width: 100%;
-    background: rgb(194, 100, 161);
+    background: rgb(254, 213, 255);
     padding: 20px;
 }
 nav ul{
@@ -64,27 +67,56 @@ nav li{
 aside{
     float: left;
     width: 25%;
-    background: rgb(177, 212, 191);
+    background:(palegoldenrod);
     padding: 20px;
+    min-height:500px;
+}
+aside h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+aside ul{
+    padding-left: 30px;
+}
+
+aside ul li{
+    font-size: 20px;
+    line-height: 1.8;
 }
 .content{
-    float:left;
-    width:75%;
-    background-color:rgb(167,248,247);
-    padding:20px;
+    float: left;
+    width: 75%;
+    background-color: rgb(195, 225, 255);
+    padding: 20px;
+    min-height:500px;
+}
+.content h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.card p{
+    color: rgba(213, 30, 30, 0.682);
+    font-weight: bold;
+}
+.card h3{
+    color: rgb(34, 10, 122);
 }
 .card{
     float: left;
     width: 30%;
-    border: 1px solid black;
     margin: 1.5%;
     padding: 10px;
+    border: 1px solid rgb(90, 13, 13);
     text-align: center;
+    min-height: 420px;
 }
 .card img{
     width: 100%;
-    height: auto;
-    object-fit:cover;
+    height: 220px;
+    object-fit: contain;
 }
 .clear{
     clear:both;
@@ -111,7 +143,7 @@ table, th, td{
 }
 .product-detail{
     background:white;
-    padding:20px;
+    padding:30px;
     border:1px solid black;
     text-align:left;
 }
@@ -119,9 +151,9 @@ table, th, td{
 
 .product-detail img{
     float:left;
-    width:300px;
-    height:300px;
-    object-fit:cover;
+    width: 350px;
+    height: 350px;
+    object-fit:contain;
     margin-right:20px;
 }
 
